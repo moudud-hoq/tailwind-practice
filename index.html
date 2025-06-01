@@ -58,7 +58,13 @@
         </div>
     </header>
 
-
+    <script>
+        // Toggle mobile menu
+        document.getElementById('menu-toggle').addEventListener('click', function () {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
 
     <!-- Solar Solution Area -->
     <div class="solar-solution-area  max-w-[1440px]  2xl:max-w-[4000px]  w-full mx-auto ">
